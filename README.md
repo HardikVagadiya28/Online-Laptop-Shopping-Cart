@@ -9,7 +9,9 @@ Shopping Cart: Add, remove, and update quantities of laptops in the shopping car
 User Authentication: Register and log in to manage your shopping cart and track orders.
 Order Management: Place orders and receive confirmation.
 Database Integration: Store product details and user information securely in a MySQL database.
+
 Installation and Setup
+
 Database Configuration
 Set up MySQL Database:
 
@@ -25,10 +27,8 @@ $servername = "localhost";
 $username = "your_username";
 $password = "your_password";
 $dbname = "your_database";
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
