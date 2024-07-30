@@ -12,30 +12,12 @@ This is an online shopping cart application for laptops, developed using HTML, C
 
 -> Installation and Setup
 Database Configuration
-Set up MySQL Database:
 
-->Create a new MySQL database:
-
-Import the provided SQL schema file to set up the necessary tables.
-Configure Database Connection:
-
-->Update the config.php file with your database credentials:
-
-<?php
-$servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-?>
-
+-> Set Up MySQL Database:
+Create a new MySQL database and import the provided SQL schema to set up the necessary tables.
+-> Configure Database Connection:
+Update the database connection settings in the configuration file with your database credentials.
 -> Server Setup:
-Ensure you have a local or remote web server with PHP support (e.g., XAMPP).
-
+Ensure you have a web server with PHP support (e.g., XAMPP, WAMP, LAMP).
 -> Deploy Files:
 Upload the project files to your server's root directory.
