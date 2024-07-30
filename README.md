@@ -11,7 +11,7 @@ This is an online shopping cart application for laptops, developed using HTML, C
 - Database Integration: Store product details and user information securely in a MySQL database.
 
 -> Installation and Setup
-Database Configuration
+Database Configuration:
 
 -> Set Up MySQL Database:
 Create a new MySQL database and import the provided SQL schema to set up the necessary tables.
