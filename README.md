@@ -15,9 +15,12 @@ Database Configuration
 
 -> Set Up MySQL Database:
 Create a new MySQL database and import the provided SQL schema to set up the necessary tables.
+
 -> Configure Database Connection:
 Update the database connection settings in the configuration file with your database credentials.
+
 -> Server Setup:
-Ensure you have a web server with PHP support (e.g., XAMPP, WAMP, LAMP).
+Ensure you have a web server with PHP support (e.g., XAMPP).
+
 -> Deploy Files:
 Upload the project files to your server's root directory.
